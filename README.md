@@ -1,20 +1,22 @@
+
+
 # Mini-Projekt_M169
 Webserver-Image über Docker
 
 ## Arbeitsverzeichnis erstellen
 `mkdir MiniProjekt`  
 * erstellt Verzeichnis  
-`cd MiniProjekt`  
+`cd MiniProjekt`   
 * navigiert in das Verzechnis
 
 ## Dockerfile erstellen
-`nano Dockerfile`
+`nano Dockerfile`   
 
 ## Docker file Inhalt
-#Basisimage
-`FROM nginx`
-#kopiert index.html Datei in das Web-Root-Verzechnis des Containers
-`COPY index.html /usr/share/nginx/html/`
+#Basisimage  
+`FROM nginx`  
+#kopiert index.html Datei in das Web-Root-Verzechnis des Containers  
+`COPY index.html /usr/share/nginx/html/`   
 
 
 ## index.html Inhalt
@@ -64,4 +66,5 @@ http://localhost:8080
 
 ## TODO
 VOLUME für Log und für Config erstellen
+INDEX.HTML ausserhalb nicht hineineladen
 
