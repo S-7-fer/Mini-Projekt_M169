@@ -2,7 +2,7 @@
 Webserver-Image über Docker
 
 ## Arbeitsverzeichnis erstellen
-`mkdir MiniProjekt`
+`mkdir MiniProjekt`  
 * erstellt Verzeichnis
 `cd MiniProjekt`
 * navigiert in das Verzechnis
@@ -61,3 +61,7 @@ docker run -d --name nginx -v /home/vmadmin/MiniProjekt/VOL/config:/etc/nginx/co
 
 ## Website aufrufen
 http://localhost:8080
+
+## TODO
+VOLUME für Log und für Config erstellen
+
