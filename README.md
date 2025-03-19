@@ -3,8 +3,8 @@ Webserver-Image über Docker
 
 ## Arbeitsverzeichnis erstellen
 `mkdir MiniProjekt`  
-* erstellt Verzeichnis
-`cd MiniProjekt`
+* erstellt Verzeichnis  
+`cd MiniProjekt`  
 * navigiert in das Verzechnis
 
 ## Dockerfile erstellen
