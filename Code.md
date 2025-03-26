@@ -27,13 +27,13 @@ Webserver-Image über Docker
 ## Docker file Inhalt
 Basisimage  
 `FROM nginx`  
-Port exportieren, um nachher darauf zugreifen zu können
+Port exportieren, um nachher darauf zugreifen zu können   
 `EXPOSE 8080`   
-Starten von Apache auf dem Port 8080
-`CMD ["httpd", "-D", "FOREGROUND"]`
+Starten von Apache auf dem Port 8080   
+`CMD ["httpd", "-D", "FOREGROUND"]`  
 
 ## Dockerfile bauen
-`docker build -t apache_MIN169 .`
+`docker build -t apache169 .`
 * docker build: Befehl zum Bauen eines Docker-Images
 * -t: Imagename (apache_MIN169)
 * .: aktuelles Verzeichnis
