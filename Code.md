@@ -4,10 +4,13 @@
 Webserver-Image über Docker
 
 ## Arbeitsverzeichnis erstellen und hineinnavigieren
-`mkdir MiniProjekt`   
-`cd MiniProjekt`   
+`mkdir MiniProjekt`    
+`cd MiniProjekt`    
+`mkdir html logs`  
+`cd hmtl`  
+`touch Dockerfile index.html`   
 
-## index.html Inhalt
+## index.html Inhalt  
 `<!doctype html>`  
 `<html lang="en">`  
  ` <head>`  
@@ -21,9 +24,6 @@ Webserver-Image über Docker
  ` </body>`
 `</html>`
 
-## Dockerfile erstellen
-`nano Dockerfile`   
-
 ## Docker file Inhalt
 Basisimage  
 `FROM nginx`  
@@ -35,7 +35,7 @@ Starten von Apache auf dem Port 8080
 ## Dockerfile bauen
 `docker build -t apache169 .`
 * docker build: Befehl zum Bauen eines Docker-Images
-* -t: Imagename (apache_MIN169)
+* -t: Imagename (apache169)
 * .: aktuelles Verzeichnis
 
 ## Überprüfung ob Dockerfile erfolgreich gebaut wurde
